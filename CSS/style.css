@@ -1,0 +1,79 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+input {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'roboto';
+}
+#form {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+#task {
+    width: 25%;
+    height: 100%;
+    margin: 10px;
+    margin-left: 20px;
+   color: rgb(179, 113, 255);
+   border: none;
+   background-color: rgb(226, 226, 226);
+}
+ul {
+    list-style-type: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+li {
+    font-family: 'roboto';
+    background-color: rgb(179, 113, 255);
+    width: 95%;
+
+    padding: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+
+button {
+    font-family: 'roboto';
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: none;
+}
+#form button:hover {
+    background-color: rgb(147, 194, 255);
+    transition: 0.5s;
+}
+button:hover {
+    background-color: rgb(147, 194, 255);
+    transition: 0.5s;
+}
+li button {
+    position: absolute;
+    right: 20px;
+}
+#form button {
+    background-color: rgb(220, 183, 255);
+}
+#error {
+    color: red;
+}
